@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="/stylesheets/style1.css">
+</head>
+<body id="body-login">
+    <header>
+        <div class="seccion-superior">
+            <div class="container-logo-barra">
+                <img src="/images/logo-mercado-liebre.svg" alt="logo-mercado-liebre.svg" id="img-logo">
+                <input type="text" id="barra-busqueda" name="barra-busqueda" placeholder="Buscar productos,marcas">                
+                <label for="barra-busqueda"><i class="fa fa-search" id="label-busqueda"></i></label> 
+            </div>
+            <div class="p-logo">
+                <p><i class="fas fa-hand-holding-usd"></i>Compra en cuotas y sin tarjetas de credito</p>
+            </div>   
+
+            <div class="menu-button">
+                <i class="fas fa-bars"></i>
+            </div> 
+        </div>   
+            <div class="nav">
+                <ul class="first-row">
+                    <li>
+                        <a href="">Ofertas</a>
+                    </li>
+                    <li>
+                        <a href="">Tiendas Oficiales</a>
+                    </li>
+                    <li>
+                        <a href="">Vender</a>
+                    </li>
+                    <li>
+                        <a href="">Ayuda</a>
+                    </li>
+                </ul>
+                <ul class="second-row">
+                    <li>
+                        <a href="/registro">Crea tu cuenta <i class="far fa-id-card"></i></a>
+                    </li>
+                    <li>
+                        <a href="/login">Ingresa <i class="fas fa-sign-in-alt"></i></a>
+                    </li>
+                    <li>
+                        <a href="">Mis Compras <i class="fas fa-shopping-basket"></i></a>
+                    </li>
+                </ul>
+        </div>
+    </header>
+
+    <form action="#" method="GET" id="form-login">
+        <!--EL METODO GET-POST DEBE CORRELACIONARSE CON EL METODO QUE USA EL SERVIDOR EN EL ARCHIVO INDEX-->
+        <div class="inputs-login">
+            <input type="text" name="nombre-usuario" id="input-login-1" placeholder="Nombre de usuario">
+            <input type="password" name="password" id="input-login-2" placeholder="Elegi tu contraseña">
+            <input type="submit" id="submit-login" value="Enviar">
+        </div>
+    </form>
+
+    <footer>
+        <div class="footer-container">
+            <article class="articulo-footer">
+                <i class="far fa-credit-card" id="iconito-azul"></i>
+                <h5 class="descripciones">Pagá con tarjeta o en efectivo</i></h5>
+                <p class="pfooter">Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivoen puntos de
+                    pago. ¡Y siempre es seguro!</p>
+            </article>
+            <article class="articulo-footer">
+                <i class="fas fa-gift" id="iconito-azul"></i>    
+                <h5 class="descripciones">Envío gratis desde los $ 2.500</h5>
+                <p class="pfooter">Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de
+                    productos. Es un beneficio de MercadoPuntos.</p>
+            </article>
+            <article class="articulo-footer">
+                <i class="fas fa-user-shield" id="iconito-azul"></i>
+                <h5 class="descripciones">Seguridad, de principio a fin</h5>
+                <p class="pfooter">¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer
+                    porque estás siempre prtegid@.</p>
+            </article>
+        </div>
+            <div class="copyright">
+                <p>Copyright © 1999-2019 MercadoLiebre S.R.L.</p>
+            </div>
+    </footer>
+</body>
+</html>
